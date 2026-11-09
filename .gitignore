@@ -1,0 +1,44 @@
+# Node & Frontend dependencies
+frontend/node_modules/
+node_modules/
+frontend/.vite/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Python & Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/app/__pycache__/
+backend/tests/__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+.env
+*.env.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log

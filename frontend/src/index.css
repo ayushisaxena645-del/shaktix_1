@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-raahi-darkest text-slate-100 font-sans;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Custom Glassmorphism & UI Accents */
+.raahi-glass {
+  background: rgba(17, 30, 62, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(31, 55, 110, 0.6);
+}
+
+.raahi-glass-active {
+  background: rgba(24, 42, 86, 0.85);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(0, 240, 255, 0.4);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.15);
+}
+
+.raahi-glow-teal {
+  box-shadow: 0 0 25px -5px rgba(0, 240, 255, 0.4);
+}
+
+.raahi-glow-danger {
+  box-shadow: 0 0 35px -5px rgba(255, 51, 102, 0.5);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050B1A;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F376E;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00F0FF;
+}
